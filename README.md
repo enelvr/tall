@@ -27,3 +27,8 @@
 - php artisan storage:link
 - php artisan optimize
 
+
+
+#### Data portafolio para demo "FACTORIES"
+
+- php artisan db:seed --class=ProjectSeeder
