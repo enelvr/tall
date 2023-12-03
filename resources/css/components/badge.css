@@ -1,0 +1,10 @@
+.badge {
+    @apply px-2 inline-flex text-xs leading-5 font-semibold rounded-full max-w-[85px];
+  }
+  .borrador {
+    @apply bg-red-100 text-red-800;
+  }
+  
+  .publicado {
+    @apply bg-green-100 text-green-800;
+  }

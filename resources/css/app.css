@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './main.css';
+@import './components/table.css';
+@import './components/badge.css';
+@import './components/flip.css';
+@import './components/buttons.css';

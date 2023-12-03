@@ -1,0 +1,37 @@
+.section {
+    @apply flex flex-wrap mt-2;
+}
+
+.column {
+    @apply w-full px-2 md:w-1/2;
+}
+
+/*Textos*/
+.title {
+  @apply py-2 font-bold text-3xl border-y-2 text-center border-rose-300;
+}
+.label {
+  @apply block text-sm font-medium text-gray-700 dark:text-gray-300;
+}
+
+.h2 {
+  @apply font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight;
+}
+
+/* Card , Box*/
+.card {
+  @apply bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg;
+
+}
+.container {
+  @apply max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8;
+}
+
+/*Form*/
+.input {
+  @apply mt-1 p-2 w-full border rounded-md;
+}
+
+.portfolio {
+  @apply flex flex-wrap grid grid-cols-3 justify-items-center mt-4;
+}

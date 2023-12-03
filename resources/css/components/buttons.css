@@ -1,0 +1,14 @@
+.btn {
+	@apply px-4 py-2 rounded-md w-20 text-center;
+}
+.btn:focus {
+	@apply outline-none;
+}
+
+.btn:hover {
+    filter: brightness(90%);
+}
+
+.btn-blue {
+    @apply text-sm text-white bg-blue-600;
+}

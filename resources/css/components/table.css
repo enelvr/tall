@@ -1,0 +1,41 @@
+/* Tabla*/
+.table {
+    @apply w-full my-0 align-middle font-bold border-neutral-200;
+  }
+  .tr {
+    @apply border-b border-dashed last:border-b-0 hover:bg-slate-200;
+  }
+  .th {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .th-3 {
+    width: 3rem;
+    text-align: center;
+    padding-right: 0.85rem;
+    font-weight: bold;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .th-4 {
+    width: 4rem;
+    text-align: center;
+    padding-right: 0.85rem;
+    font-weight: bold;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .th-action {
+    border-bottom: 1px solid #e2e8f0;
+    width: 3rem;
+    text-align: center;
+    padding-right: 0.85rem;
+  }
+  
+  .td-action {
+    width: 6rem;
+    text-align: center;
+  }
+  .td {
+    padding: 0.50rem 1rem;
+  }
