@@ -20,7 +20,7 @@ class EditProject extends Component
         $project = Project::findOrFail($id);
         $this->title = $project->title;
         $this->description = $project->description;
-        $this->is_public = $project->is_public ? true : false;
+        $this->is_public = (bool) $project->is_public;
     }
 
     public function render()

@@ -19,7 +19,7 @@
 
                     <div class="mb-4">
                         <label for="description" class="label">Descripción:</label>
-                        {{ $project->description }}
+                        {!! $project->description !!}
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                                     <div class="p-4 relative z-10">
                                         <h1 class="text-3xl font-bold mb-1 capitalize">{{ substr($project->title, 0, 15) }} ...</h1>
     
-                                        <p class="mt-4 text-lg">{{ substr($project->description, 0, 100) }} ...</p>
+                                        <p class="mt-4 text-lg">{!! substr($project->description, 0, 100) !!} ...</p>
     
                                     </div>
                                 </div>
